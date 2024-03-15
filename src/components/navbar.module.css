@@ -1,0 +1,70 @@
+span {
+  color: red;
+}
+.navbar {
+  position: relative;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+.brand {
+  color: rgb(32, 188, 178);
+  text-transform: capitalize;
+  font-size: x-large;
+  font-style: italic;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.brand:hover {
+  color: rgb(46, 207, 196);
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  border: 3px solid rgb(32, 188, 178);
+}
+.togglebut {
+  background-color: rgb(32, 188, 178);
+}
+.togglebut:hover {
+  background-color: rgb(32, 188, 178);
+}
+.navbarcontainer {
+  background-color: rgba(0, 0, 0, 0);
+}
+.navitems_ul {
+  display: flex;
+  gap: 25px;
+  color: rgb(32, 188, 178);
+}
+.navitem_li {
+  color: rgb(15, 235, 217);
+  font-size: larger;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+}
+.navitem_link {
+  text-decoration: none;
+  cursor: pointer;
+}
+.navitem_link:hover {
+  border-bottom: 4px solid rgb(214, 38, 38);
+}
+/*media queries*/
+@media only screen and (max-width: 400px) {
+  .brand {
+    font-size: medium;
+  }
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
+  .navitems_ul {
+    gap: 10px;
+  }
+  .navitem_li {
+    font-size: medium;
+  }
+}

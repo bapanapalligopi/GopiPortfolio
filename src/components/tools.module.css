@@ -1,0 +1,29 @@
+.skillwithprogress {
+  display: flex;
+  gap: 20px;
+}
+.skill {
+  margin-top: 12px;
+  color: rgb(163, 234, 234);
+}
+.progresses {
+  margin-top: 20px;
+  width: 200px;
+  height: 4px;
+}
+.progresswidth {
+  background-color: aqua;
+}
+.percentage {
+  color: rgb(167, 239, 239);
+  margin-top: 10px;
+}
+@media only screen and (max-width: 400px) {
+  .skill {
+    font-size: 12px;
+    font-weight: bolder;
+  }
+  .progresses {
+    width: 150px;
+  }
+}

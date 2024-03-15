@@ -1,0 +1,89 @@
+.homecontainer {
+  position: relative;
+  color: red;
+  z-index: 3;
+}
+.dataphoto {
+  margin-top: 150px;
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+}
+.myphoto {
+  width: 300px;
+  height: 300px;
+  border: 6px solid rgb(46, 207, 196);
+  border-radius: 50%;
+}
+.hi {
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aqua;
+}
+.name {
+  font-size: 35px;
+  color: aqua;
+  font-weight: bolder;
+  font-style: italic;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.objective {
+  color: rgb(140, 240, 240);
+  text-align: justify;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
+}
+.resumedownload {
+  margin-top: 40px;
+  justify-content: center;
+  text-align: center;
+}
+.resume {
+  background-color: transparent;
+  border: 3px solid aqua;
+  color: white;
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.resume:hover {
+  background-color: aqua;
+}
+
+@media only screen and (max-width: 400px) {
+  .dataphoto {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+    justify-content: center;
+    text-align: center;
+  }
+  .myphoto {
+    width: 100%;
+    height: 200px;
+    border: 2px solid rgb(46, 207, 196);
+    border-radius: 50%;
+  }
+  .hi {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .name {
+    font-size: 15px;
+  }
+  .objective {
+    color: rgb(167, 241, 241);
+    text-align: justify;
+    font-size: 13px;
+  }
+  .resumedownload {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
